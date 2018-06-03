@@ -1,6 +1,7 @@
 # Sorting - Insertion Sort
 # Insertion sort is like inserting one card at a time in a hand of cards
 
+
 def insertion_sort(a):
     for i in range(1, len(a)):
         j = i
@@ -9,6 +10,7 @@ def insertion_sort(a):
             a[j] = a[j - 1]
             a[j - 1] = key
             j -= 1
+        print(i, '->', a)
     return a
 
 

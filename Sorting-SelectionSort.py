@@ -9,7 +9,7 @@ def selection_sort(a):
                 key = a[i]
                 a[i] = a[j]
                 a[j] = key
-
+        print(i, '->', a)
     return a
 
 
