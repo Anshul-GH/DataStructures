@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f6e8f0-e2de-4dac-bbd3-a56ff2795dd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Sorting-SelectionSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting-InsertionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting-InsertionSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting-BubbleSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting-SelectionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting-SelectionSort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,20 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Sorting-InsertionSort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sorting-InsertionSort.py">
+      <file leaf-file-name="Sorting-BubbleSort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sorting-BubbleSort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sorting-SelectionSort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sorting-SelectionSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -50,6 +40,7 @@
       <list>
         <option value="$PROJECT_DIR$/Sorting-InsertionSort.py" />
         <option value="$PROJECT_DIR$/Sorting-SelectionSort.py" />
+        <option value="$PROJECT_DIR$/Sorting-BubbleSort.py" />
       </list>
     </option>
   </component>
@@ -97,7 +88,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Sorting-BubbleSort">
+    <configuration name="Sorting-BubbleSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting-BubbleSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Sorting-InsertionSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,8 +125,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Sorting-SelectionSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting-SelectionSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Sorting-InsertionSort" />
+      <item itemvalue="Python.Sorting-SelectionSort" />
+      <item itemvalue="Python.Sorting-BubbleSort" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Sorting-BubbleSort" />
+        <item itemvalue="Python.Sorting-SelectionSort" />
         <item itemvalue="Python.Sorting-InsertionSort" />
       </list>
     </recent_temporary>
@@ -137,6 +171,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08020833" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -178,8 +213,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorting-SelectionSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting-BubbleSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
         </state>
       </provider>
     </entry>

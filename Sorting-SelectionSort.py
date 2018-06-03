@@ -7,8 +7,8 @@ def selection_sort(a):
         for j in range((i + 1), len(a)):
             if a[i] > a[j]:
                 key = a[i]
-                a[i] = a[i + 1]
-                a[i + 1] = key
+                a[i] = a[j]
+                a[j] = key
 
     return a
 
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     arr = [int(i) for i in arr]
 
     # Call the function for insertion sort
-    arr = insertion_sort(arr)
+    arr = selection_sort(arr)
 
     # Output:
     print('Sorted Array:')
